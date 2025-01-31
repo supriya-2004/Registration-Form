@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>SRCOEM ALMUNI REGISTRATION FORM</title>
+</head>
+<body bgcolor="#CCCCFF">
+<table>
+<tr>
+<th><img src="file:///C:/Users/pashi/Downloads/LOGO.png" align="center" width="130" height="150"></th>
+<th><h1>Shri Ramdeobaba College Of Engineering & Management, Nagpur</h1></th>
+</tr>
+</table>
+<hr color="black">
+<h2 align="center">ALUMNI REGISTRATION FORM</h2>
+
+<fieldset>
+<legend><h3>Alumni Personal Information</h3></legend>
+<form>
+<label>First Name :</label> 
+<input type="text" name="first_name" placeholder="First Name"required="required"/><br><br>
+<label>Last Name :</label> 
+<input type="text" name="last_name" placeholder="Last Name"required="required"/><br><br>
+<label>Date Of Birth :<label>
+<input type="date" name="dob" placeholder="Select"required="required"/><br><br>
+<label>Gender :</label><br>
+<input type="radio" name="gender" value="male">Male<br>
+<input type="radio" name="gender" value="female">Female<br>
+<input type="radio" name="gender" value="other">Other<br><br>
+Contact Number : <input type = "tel" name="contact_number" placeholder="+91"required="required"/><br><br>
+<label>Address :</label>
+<textarea rows="4" cols="50" name="address" placeholder="Enter Address"required="required"></textarea><br><br>
+</fieldset>
+
+<fieldset>
+<legend><h3>Alumni College Details</h3></legend>
+<label>Enter Username : </label><input type="text" name="enter_username" placeholder="Username" required="required" /><br><br>
+<label>Create Password :  </label>
+<input type="password" name="create_password" placeholder="Create Password" pattern="[A-Za-z0-9#]{8}" required="required" /><br><br>
+<label>Confirm Password :  </label>
+<input type="password" name="confirm_password" placeholder="Confirm Password" pattern="[A-Za-z0-9#]{8}" required="required" /><br><br>
+<label>Branch :</label>
+<select name="Branch" required="required">
+<option value="CSE">CSE</option>
+<option value="IT">IT</option>
+<option value="ECE">ECE</option>
+<option value="MECHANICAL">MECHANICAL</option>
+<option value="CIVIL">CIVIL</option>
+<option value="CSE(AIML)">CSE(AIML)</option>
+<option value="CSE(DS)">CSE(DS)</option>
+<option value="CSE(CYSE)">CSE(CYSE)</option>
+<option value="ECS">ECS</option>
+<option value="MBA">MBA</option>
+ </select><br><br>
+<label>Batch :</label>
+<input type="tel" name="batch" placeholder="19/20XX-XX" required="required"/>
+<label>Passing Year :</label>
+<input type="tel" name="passing year" placeholder="19/20XX" required="required"/>
+</fieldset>
+
+<fieldset>
+<legend><h3>Alumni Working Status</h3></legend>
+<label>Current Oraganization :</label>
+<input type="text" name="current_organization" placeholder="Company Name" required="required"/><br><br>
+<label>Designation :</label>
+<input type="text" name="current_organization" placeholder="Position" required="required"/><br><br>
+<label>Working Since :</label>
+<input type="tel" name="working since" placeholder="19/20XX" required="required"/>
+</fieldset><br><br>
+
+<input type="checkbox" name="declaration" value="I, hereby, declare that all the details are correct and true." required="required"/>I, hereby, declare that all the details are correct and true.<br><br>
+<input type="submit" name="submit" value="Submit"/>
+<input type="reset" name="reset" value="Reset" />
+</form>
+<br><br>
+</body>
+</html>
